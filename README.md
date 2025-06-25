@@ -17,20 +17,21 @@ A production-ready boilerplate built with React, Vite, React Router, Redux Toolk
 
 ## 📁 Folder Structure
 src/
-├── assets/ # Static assets like images, fonts
-├── components/ # Reusable UI components
-├── hooks/ # Custom React hooks
-├── pages/ # Page components for routing
-├── redux/ 
-    └── store # Redux store setup
-    └── slices/ #
-├── routes/ # Route definitions
-├── sections/ # Different sections of a page (header, main body, footer)
-├── styles/ # Global and shared styles
-    └── variables.scss # Global variables
-    └── mixins.scss # Global mixins
-├── utils/ # Utility functions/helpers
-└── main.jsx/tsx # App entry point
+├── assets/          # Static assets like images, fonts
+├── components/      # Reusable UI components
+├── hooks/           # Custom React hooks
+├── pages/           # Page components used for routing
+├── redux/           
+│   ├── store/       # Redux store setup
+│   └── slices/      # Feature-based Redux slices
+├── routes/          # Route definitions
+├── sections/        # Page layout sections (Header, Footer, etc.)
+├── styles/          # Global and shared styles
+│   ├── variables.scss  # SCSS variables
+│   └── mixins.scss     # SCSS mixins
+├── utils/           # Utility functions/helpers
+└── main.jsx         # App entry point
+
 
 ## How to run it?
 clone the repo
