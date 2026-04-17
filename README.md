@@ -39,8 +39,6 @@ cd project-folder
 npm install
 npm run dev
 
-✅ Features:
-
 🔁 Centralized state management using Redux Toolkit
 🧭 Routing with React Router v7
 🎨 SCSS modular styling support
